@@ -1,0 +1,53 @@
+/* .items{
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+header{
+    background: #f4f4f4;
+    padding: 1rem;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.container{
+    margin: auto;
+    width:500px;
+    overflow: auto;
+}
+
+#my-form{
+    padding: 2rem;
+    background: #f4f4f4;
+}
+
+#my-form label{
+    display: block;
+}
+
+.btn:hover{
+    background: #444;
+}
+
+.bg-dark{
+    background: #444;
+}
+
+.error{
+    background: orangered;
+    color: #fff;
+    padding: 5px;
+}
